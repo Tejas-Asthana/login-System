@@ -4,10 +4,6 @@
 }
 
 .form-wrapper {
-  position: relative;
-  -ms-flex-item-align: stretch;
-      -ms-grid-row-align: stretch;
-      align-self: stretch;
   max-width: 100%;
   padding: 10px;
 }
@@ -75,17 +71,13 @@ input[type=submit]:hover {
           transform: scale(105%, 105%);
 }
 
-input[type=password] {
-  display: block;
-}
-
 @media (max-width: 650px) {
   .form-title {
     font-size: 28px;
   }
   input[name=username], input[name=email], input[name=password] {
-    width: 200%;
-    max-width: 115%;
+    width: 120%;
+    max-width: 105%;
     font-size: 12px;
   }
 }
